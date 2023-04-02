@@ -1,6 +1,6 @@
 const {google} = require('googleapis');
 
-import key from './credentials.json' assert { type: 'json' };
+const key =require('./credentials.json');
 
 export const SHEET_ID = '1RQxUwl37mQGZCDVlKoTUWcrl3EIJzT0LLKfeztuCaK8';
 
